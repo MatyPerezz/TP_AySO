@@ -1,0 +1,94 @@
+cd
+mkdir repogit
+cd repogit
+git clone https://github.com/MatyPerezz/TP_AySO.git
+cd TP_AySO
+cat /etc/mtab
+grep -i sysfs /etc/mtab
+grep -i sysfs /etc/mtab > datos_sys.txt
+cat datos_sys.txt
+git add datos_sys.txt
+git commit -m "ADD: búsqueda sysfs en mtab"
+git push
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información del usuario desde /etc/passwd"
+git push
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información del usuario desde /etc/passwd"
+git push
+ación del usuario desde /etc/passwd"
+git push
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información del usuario desde /etc/passwd"
+git push
+
+
+git config --list
+exit
+git config --global user.name "MatyPerezz"
+git config --list
+git config --global user.email "perezabrahammatias@gmail.com"
+git add datos_sys.txt
+git commit -m "ADD: búsqueda sysfs en mtab"
+git push
+git config --global user.name "MatyPerezz"
+git config --global user.email "perezabrahammatias@gmail.com"
+git config --list
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información del usuario desde /etc/passwd"
+git push
+ssh-keygen -t rsa -b 4096 -C "perezabrahmmatias@gmail.com"
+cat ~/.ssh/id_rsa.pub
+git remote set-url origin git@github.com:MatyPerezz/TP_AySO.git
+ssh -T git@github.com
+git push
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información del usuario desde /etc/passwd"
+git push
+cd ~/repogit/TP_AySO
+grep $(whoami) /etc/passwd | awk -F: '{print $5, $6}' >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información del usuario desde /etc/passwd"
+git push
+git status
+cat <<EOF >README.md
+Alumno: Matias Agustin Perez Abraham
+Division: 115-2
+Turno: Mañana
+
+cat README.md
+cat <<EOF > README.md
+Alumno: Matías Agustin Pérez Abraham
+División: 115-2
+Turno: Mañana
+EOF
+
+cat README.md
+git add README.md
+git commit -m "ADD: Añadiendo README con datos del alumno"
+
+cd ~
+mkdir -p trabajo/documentos/practicas proyectos/arquitectura/TP1 descargas/temp
+tree
+sudo apt update
+sudo apt install tree -y
+tree
+cd ~/repogit/TP_AySO
+mkdir trabajo/documentos
+mkdir -p trabajo/documentos/practicas
+cd ~/repogit/TP_AySO
+echo 'mkdir -p trabajo/documentos/practicas proyectos/arquitectura/TP1 descargas/temp' > script_dir.sh
+/script_dir.sh
+script_dir.sh
+chmod +x script_dir.sh
+/script_dir.sh
+rectory
+vagrant@ubuntu-focal:~/repogit/TP_AySO$
+./script_dir.sh
+tree
+git add script_dir.sh
+git commit -m "ADD: script para crear estructura de directorios"
+git push
+history a
+history -a
